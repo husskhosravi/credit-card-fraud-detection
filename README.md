@@ -23,9 +23,7 @@ This project analyses the [Credit Card Fraud Detection dataset](https://www.kagg
 - **Feature importance analysis** to identify key fraud indicators  
 - **Business impact assessment** including financial cost-benefit analysis  
 
-## 🛠 Getting Started  
-
-### ✅ Prerequisites  
+## ✅ Prerequisites  
 - Python 3.8+  
 - Jupyter Notebook  
 - Required libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `imbalanced-learn`, `xgboost`
@@ -57,22 +55,39 @@ This project analyses the [Credit Card Fraud Detection dataset](https://www.kagg
 ![financial-impact](https://github.com/user-attachments/assets/46ef5c02-d954-4abe-ac93-25a0b0c61058)
 
 
-## ✅ Conclusion and Key Takeaways  
-This project demonstrates how machine learning can be effectively applied to detect fraudulent credit card transactions, even with highly imbalanced data. The key findings include:
+## 📊 Summary of Findings:
 
-1.  **Model Selection Matters**: Tree-based models like XGBoost and Random Forest tend to perform well due to their ability to capture complex patterns.  
-2.  **Beyond Default Thresholds**: Business-aware threshold tuning can significantly improve model utility.  
-3.  **Cost-Sensitive Evaluation**: False negatives are typically more costly than false positives.  
-4.  **Operational Considerations**: Speed matters—fraud detection must work in real time.  
-5.  **Continuous Improvement**: Fraud patterns change—models need constant updates.  
+1. **Data Characteristics**:
+   - The dataset contained **284,807 transactions** with **492 fraudulent cases (0.1727% fraud rate)**
+   - Highly imbalanced dataset requiring special handling
 
-The techniques demonstrated are directly applicable to real-world fraud detection in banking environments.
+2. **Best Model**:
+   - **Random Forest** performed best with an **F1 Score of 0.8360**
+   - Optimal threshold for classification: **0.75**
 
-## 🔮 Future Work  
--  Develop an API for real-time fraud detection  
-- 🛠 Implement more advanced feature engineering techniques  
--  Explore deep learning approaches for fraud detection  
--  Create a monitoring system for model performance over time  
+3. **Model Performance**:
+   - **Precision**: **0.8681**
+   - **Recall**: **0.8061**
+   - **AUC**: **0.9695**
+
+4. **Key Insights**:
+   - Feature importance analysis revealed the most predictive transaction attributes
+   - Adjusting the classification threshold significantly impacts the balance between catching fraud and false alarms
+   - SMOTE resampling was effective in handling the class imbalance problem
+   - **Model selection matters** — tree-based models like Random Forest and XGBoost excel due to their ability to capture nonlinear fraud patterns
+   - **Default thresholds are suboptimal** — tuning improves business value
+   - **Cost-sensitive evaluation is crucial** — false negatives carry significantly higher cost than false positives
+   - **Operational readiness is key** — real-time systems need speed and accuracy
+   - **Fraud trends evolve** — continuous learning and updating are essential
+
+5. **Business Value**:
+   - The model provides substantial potential savings by detecting fraudulent transactions
+   - Further optimisation could focus on reducing false positives to minimise investigation costs
+
+## 🔮 Next Steps:
+1. Implement a real-time fraud detection system using the trained model  
+2. Establish continuous monitoring and periodic retraining to maintain effectiveness  
+3. Explore additional features that could further improve fraud detection accuracy  
 
 ---
 
