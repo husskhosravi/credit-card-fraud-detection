@@ -75,5 +75,3 @@ The techniques demonstrated are directly applicable to real-world fraud detectio
 ---
 
 *📚 This project was created as a demonstration of fraud analytics capabilities for financial institutions.*
-# credit-card-fraud-detection
-ML-based credit card fraud detection with SMOTE, threshold tuning, and cost-benefit analysis.
