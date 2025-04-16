@@ -28,32 +28,29 @@ This project analyses the [Credit Card Fraud Detection dataset](https://www.kagg
 - Jupyter Notebook  
 - Required libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `imbalanced-learn`, `xgboost`
 
-## 🔍 Key Insights  
-
-### 📊 Exploratory Data Analysis  
+## 📊 Exploratory Data Analysis  
 - Analysis of transaction amounts and their relationship with fraudulent activities  
 - Visualisation of class imbalance and its implications for modelling
   
 ![class-imbalance](https://github.com/user-attachments/assets/9dcdbdcf-20ae-414e-9e36-9635bf1fdad5)
   
-### 🧪 Model Performance  
+## 🧪 Model Performance  
 - Comparison of different algorithms using metrics suitable for fraud detection  
 - ROC and Precision-Recall curves to evaluate model discrimination capabilities  
 
 ![models-performance](https://github.com/user-attachments/assets/ba64acef-4f61-40b4-8660-4fb8b381bde7)
 
-### ⚙️ Threshold Optimisation  
+## ⚙️ Threshold Optimisation  
 - Finding the optimal classification threshold that balances fraud detection rate with false alarms  
 - Visualisation of how different thresholds affect precision, recall, and F1 score  
 
 ![confusion-matrix](https://github.com/user-attachments/assets/fff72f2d-bb7c-40ff-bee3-67001704defd)
 
-### 💼 Business Value  
+## 💼 Business Value  
 - Quantification of potential savings from implementing the fraud detection system (based on hypothetical values used for illustration)
 - Analysis of costs associated with false positives and false negatives
 
 ![financial-impact](https://github.com/user-attachments/assets/46ef5c02-d954-4abe-ac93-25a0b0c61058)
-
 
 ## 📊 Summary of Findings:
 
