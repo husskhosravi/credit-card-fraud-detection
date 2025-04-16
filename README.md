@@ -42,6 +42,8 @@ This project analyses the [Credit Card Fraud Detection dataset](https://www.kagg
 - Comparison of different algorithms using metrics suitable for fraud detection  
 - ROC and Precision-Recall curves to evaluate model discrimination capabilities  
 
+![models-performance](https://github.com/user-attachments/assets/ba64acef-4f61-40b4-8660-4fb8b381bde7)
+
 ### ⚙️ Threshold Optimisation  
 - Finding the optimal classification threshold that balances fraud detection rate with false alarms  
 - Visualisation of how different thresholds affect precision, recall, and F1 score  
