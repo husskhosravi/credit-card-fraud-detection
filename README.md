@@ -32,25 +32,25 @@ This project analyses the [Credit Card Fraud Detection dataset](https://www.kagg
 - Analysis of transaction amounts and their relationship with fraudulent activities  
 - Visualisation of class imbalance and its implications for modelling
   
-![class-imbalance](https://github.com/user-attachments/assets/752ce7d4-489b-46a9-83dc-20a955c83433)
+![class-imbalance](https://github.com/user-attachments/assets/1096e64d-d98c-4441-b9b7-cba1d0f50158)
   
 ## 🧪 Model Performance  
 - Comparison of different algorithms using metrics suitable for fraud detection  
 - ROC and Precision-Recall curves to evaluate model discrimination capabilities  
 
-![class-imbalance](https://github.com/user-attachments/assets/c2d7f037-b865-4b90-96b4-78cde94fc56f)
+![models-performance](https://github.com/user-attachments/assets/17bfcd34-8855-4033-be2f-64d20f523df8)
 
 ## ⚙️ Threshold Optimisation  
 - Finding the optimal classification threshold that balances fraud detection rate with false alarms  
 - Visualisation of how different thresholds affect precision, recall, and F1 score  
 
-![confusion-matrix](https://github.com/user-attachments/assets/9e58713b-5eea-4785-b60b-8a59d97620c1)
+![confusion-matrix](https://github.com/user-attachments/assets/3d532738-b223-4d7b-8e1e-d19bb12feab2)
 
 ## 💼 Business Value  
 - Quantification of potential savings from implementing the fraud detection system (based on hypothetical values used for illustration)
 - Analysis of costs associated with false positives and false negatives
 
-![confusion-matrix](https://github.com/user-attachments/assets/37a6c0ad-ffc8-4cb4-a0cc-ae3ae463d420)
+![financial-impact](https://github.com/user-attachments/assets/8da092e4-deec-4d57-96e6-0e4381ec0e8c)
 
 ## 📊 Summary of Findings:
 
