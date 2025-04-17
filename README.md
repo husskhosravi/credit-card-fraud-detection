@@ -23,11 +23,6 @@ This project analyses the [Credit Card Fraud Detection dataset](https://www.kagg
 - **Feature importance analysis** to identify key fraud indicators  
 - **Business impact assessment** including financial cost-benefit analysis  
 
-## ✅ Prerequisites  
-- Python 3.8+  
-- Jupyter Notebook  
-- Required libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `imbalanced-learn`, `xgboost`
-
 ## 📊 Exploratory Data Analysis  
 - Analysis of transaction amounts and their relationship with fraudulent activities  
 - Visualisation of class imbalance and its implications for modelling
